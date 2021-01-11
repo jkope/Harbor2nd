@@ -12,8 +12,10 @@ body {
 
 .header {
   background: linear-gradient(to top,#003057, #f1f1f3);
-  text-shadow: 2px 2px #003057;
-  color: #f1f1f3;
+  /* text-shadow: 2px 2px #003057; */
+  /* color: #f1f1f3; */
+  color: black;
+
 }
 
 .row {
@@ -61,9 +63,13 @@ ul {
   padding: 20px;
 }
 
+a:hover {
+  color: #003057;
+  text-decoration: underline #003057 3px;
+}
+
 p, li {
-  font-size: 16px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 1px;
 }
 
