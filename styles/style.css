@@ -39,7 +39,6 @@ h1 {
   align-items: center;
   margin-top: auto;
   background: linear-gradient(to bottom,#003057, #f1f1f3);
-  text-shadow: 2px 2px black;
   color: #f1f1f3;
   height: 5vh;
 }
@@ -60,7 +59,6 @@ ul {
 
 .list {
   padding: 20px;
-  min-width: 400px;
 }
 
 p, li {
